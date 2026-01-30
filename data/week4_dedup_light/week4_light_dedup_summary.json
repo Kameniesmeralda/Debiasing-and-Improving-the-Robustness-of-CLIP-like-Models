@@ -1,0 +1,25 @@
+{
+  "input_csv": "data/laion_big_light_tau1_0.2989.csv",
+  "rows_input_existing": 107251,
+  "rows_after_exact_path_dedup": 107251,
+  "rows_hashed_valid": 107251,
+  "rows_after_phash_dedup": 81061,
+  "stats_before": {
+    "rows": 107251,
+    "caption_len_mean": 11.50586008522065,
+    "caption_len_median": 9.0,
+    "width_mean": 640.2439884010405,
+    "height_mean": 555.3142441562317,
+    "aesthetic_mean": 6.638642123141852,
+    "clipscore_mean": 0.3257998502730627
+  },
+  "stats_after": {
+    "rows": 81061,
+    "caption_len_mean": 11.416291434845363,
+    "caption_len_median": 9.0,
+    "width_mean": 653.9466697918851,
+    "height_mean": 562.16467845203,
+    "aesthetic_mean": 6.634265351825774,
+    "clipscore_mean": 0.3249492619067096
+  }
+}

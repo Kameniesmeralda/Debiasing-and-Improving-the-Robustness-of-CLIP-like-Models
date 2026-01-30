@@ -1,34 +1,22 @@
-# Bloque TOUS les dossiers nommés data, peu importe où ils sont
-**/data/
 
-# Bloque spécifiquement les archives lourdes et modèles
+# Bloquer les archives lourdes
 *.rar
 *.zip
 *.7z
+
+# Bloquer les modèles PyTorch
 *.pt
 *.pth
-*.bin
 
-# Bloque les environnements et checkpoints
-.venv/
-.ipynb_checkpoints/
-__pycache__/
-# Bloquer tout dans les dossiers data et src/data/data
-**/data/
+# Bloquer spécifiquement le dossier d'images décompressé
 **/laion_aesthetic_subset_big/
+src/data/data/laion_aesthetic_subset_big/
 
-# Bloquer les fichiers lourds spécifiques
-*.rar
-*.zip
-*.pt
-*.pth
+# Bloquer les dossiers temporaires
+.venv/
+__pycache__/
+.ipynb_checkpoints/
 
-# Bloquer TOUTES les images (JPG, PNG, etc.)
+# Optionnel : Bloquer les images seules si elles sont hors dossier
 **/*.jpg
 **/*.png
-**/*.jpeg
-
-# --- EXCEPTION : AUTORISER LES CSV ---
-!**/*.csv
-!**/*.py
-!**/*.json

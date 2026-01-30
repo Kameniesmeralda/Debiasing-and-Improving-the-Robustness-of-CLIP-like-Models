@@ -1,0 +1,28 @@
+{
+  "input_csv": "data/laion_big_light_tau1_0.2989.csv",
+  "rows": 107251,
+  "face_detected_rate": 0.05221396537095225,
+  "gender_non_null": 5600,
+  "age_non_null": 5600,
+  "race_non_null": 5600,
+  "gender_distribution": {
+    "Man": 5095,
+    "Woman": 505
+  },
+  "race_distribution": {
+    "white": 4050,
+    "asian": 672,
+    "black": 392,
+    "middle eastern": 367,
+    "latino hispanic": 80,
+    "indian": 39
+  },
+  "age_group_distribution": {
+    "adult": 4033,
+    "young_adult": 1503,
+    "middle_aged": 58,
+    "teen": 4,
+    "senior": 2,
+    "child": 0
+  }
+}

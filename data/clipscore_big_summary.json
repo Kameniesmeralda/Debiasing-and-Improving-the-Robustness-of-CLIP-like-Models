@@ -1,0 +1,21 @@
+{
+  "config": {
+    "in_csv": "data/laion_big_quality_filtered.csv",
+    "out_dir": "data",
+    "n_samples": null,
+    "seed": 42,
+    "device": "cpu",
+    "batch_size": 256,
+    "light_keep_ratio": 0.7,
+    "strong_keep_ratio": 0.4,
+    "resume": true
+  },
+  "input_rows": 153216,
+  "valid_clipscore_rows": 153216,
+  "tau1": 0.2989282011985779,
+  "tau2": 0.3187018930912018,
+  "light_rows": 107251,
+  "strong_rows": 61287,
+  "kept_light_pct": 69.99986946533,
+  "kept_strong_pct": 40.00039160401003
+}
