@@ -1,0 +1,34 @@
+# Bloque TOUS les dossiers nommés data, peu importe où ils sont
+**/data/
+
+# Bloque spécifiquement les archives lourdes et modèles
+*.rar
+*.zip
+*.7z
+*.pt
+*.pth
+*.bin
+
+# Bloque les environnements et checkpoints
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+# Bloquer tout dans les dossiers data et src/data/data
+**/data/
+**/laion_aesthetic_subset_big/
+
+# Bloquer les fichiers lourds spécifiques
+*.rar
+*.zip
+*.pt
+*.pth
+
+# Bloquer TOUTES les images (JPG, PNG, etc.)
+**/*.jpg
+**/*.png
+**/*.jpeg
+
+# --- EXCEPTION : AUTORISER LES CSV ---
+!**/*.csv
+!**/*.py
+!**/*.json
