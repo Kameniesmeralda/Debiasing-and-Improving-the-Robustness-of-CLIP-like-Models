@@ -1,22 +1,6 @@
-
-# Bloquer les archives lourdes
 *.rar
 *.zip
-*.7z
-
-# Bloquer les modèles PyTorch
-*.pt
-*.pth
-
-# Bloquer spécifiquement le dossier d'images décompressé
-**/laion_aesthetic_subset_big/
-src/data/data/laion_aesthetic_subset_big/
-
-# Bloquer les dossiers temporaires
-.venv/
+*.jpg
+*.png
+src/data/data/
 __pycache__/
-.ipynb_checkpoints/
-
-# Optionnel : Bloquer les images seules si elles sont hors dossier
-**/*.jpg
-**/*.png
